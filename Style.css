@@ -1,6 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Fira+Code:wght@300;400&display=swap');
 body {
       font-family: 'Fira Code', monospace;
       font-weight: 300;
@@ -8,7 +7,7 @@ body {
 
     /* Nav Bar*/
     body{
-      background-color:#f6f5f5;
+      background-color:#000000;
       margin:0px;
       padding:0px;
     }
@@ -21,7 +20,7 @@ body {
     section{
       width:100%;
       height:95vh;
-      background-image:url("Design Assets/bg.png");
+      /*background-image:url("Design Assets/Background IMG.png");*/
       background-size:cover;
       background-repeat:no-repeat;
       position: relative;
@@ -30,9 +29,9 @@ body {
       display: flex;
       justify-content: space-between;
       align-items:center;
-      height:60px;
-      background-color:#ffffff;
-      box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+      height:170px;
+      background-color:#000000;
+      box-shadow:2px 2px 12px rgba(61, 60, 60, 0.2);
       padding:0px 5%;
       
     }
@@ -46,20 +45,20 @@ body {
     nav ul li a{
       margin:30px;
       font-family:'Fira Code', monospace;
-      color:#505050;
+      color:#9C27B0;
       font-size: 15px;
       font-weight:300;
     }
     .logo{
       display: inline-block;
       vertical-align: top;
-      width: 50px;
-      height: 45px;
-      margin-right: 20px;
+      width: 140px;
+      height: 160px;
+      margin-right: 10px;
       margin-top: 10px; 
     }
     .active{
-      color:#2d2a2a;
+      color:#ffffff;
       font-weight:bold;
     }
 
@@ -78,15 +77,15 @@ body {
       font-size:25px;
     }
     .text-container h1:nth-child(2){
-      font-family:'Press Start 2P', cursive;
+      font-family:'Comforter Brush', cursive;
       font-weight:bold;
       letter-spacing:1px;
       color:#9C27B0;
-      font-size:40px;
+      font-size:60px;
       
     }
     .text-container p:nth-child(3){
-      font-family:'Fira Code';
+      font-family:'Fira Code', monospace;
       font-weight: bold;
       color: #F5C918;
       font-size:30px;
@@ -134,14 +133,13 @@ body {
       transform:scale(1.1);
     }
 
-        /*About Me Section*/
-  
-    .about-container{
+        /*About Me Section*/      
+      .about-container{
       width:80%;
-      height:500px;
-      background:#ffffff;
+      height:700px;
+      background:#000000;
       border-radius:20px;
-      box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+      box-shadow:2px 2px 12px #00000033;
       display: flex;
       margin: -7%  auto 20px auto;
       position: relative;
@@ -149,56 +147,86 @@ body {
       align-items: center;
     }
     .profile-img {
-      height:250px;
+      height:300px;
     }
     .about-me {
-      width:500px;
+      width:550px;
     } 
     .about-me p:nth-child(1){
-      color:#403e3e;
-      font-family: 'Fira Code';
+      color: #00beb9;
+      font-family: 'Fira Code'monospace;
       font-weight:bold;
       font-size:36px;
       line-height:0px;
     }
     .about-me p:nth-child(2){
-      color:#3e3d3d;
-      font-size:20px;
+      color:#9C27B0;
+      font-size:25px;
       font-family: 'fira code';
       font-weight:bold;
       line-height:5px;
     }
     .about-me p:nth-child(3){
-      color:#7e7d7d;
+      color:#F5C918;
       font-family: 'fira code';
-      font-size:16px;
+      font-size:18px;
+      font-style: italic;
+    }
+
+    .about-me p:nth-child(4){
+      color:#ffffff;
+      font-family: 'fira code';
+      font-size:18px;
+      font-style: italic; 
+    }
+
+    .about-me p:nth-child(5){
+      color:#ffffff;
+      font-family: 'fira code';
+      font-size:18px; 
+      font-style: italic;
+    }
+
+    .about-me p:nth-child(6){
+      color:#ffffff;
+      font-family: 'fira code';
+      font-size:18px; 
+      font-style: italic;
+    }
+
+    .about-me p:nth-child(7){
+      color:#FF0090;
+      font-family: 'fira code';
+      font-size:18px; 
+      font-style: italic;
     }
     
  /*Services Section*/
  .services{
-	height:600px;
-	background-color:#ffffff;
+	height:400px;
+	background-color:#000000;
 	padding: 2% 10% 0px 10%;
   text-align: center;
+
 }
 .services-text p:nth-child(1){
 	font-family: 'Fira code';
 	font-weight:bold;
-	color:#1d1c1c;
+	color:#00beb9;
 	font-size:36px;
 	line-height:0px;
 }
 .services-text p:nth-child(2){
 	font-family: Fira Code;
 	font-weight: bold;
-	color:#3e3d3d;
-	font-size: 20px;
+	color:#9C27B0;
+	font-size: 25px;
 	line-height: 5px;
 }
 .services-text p:nth-child(3){
 font-family: Fira Code;
-color:#7e7d7d;
-font-size: 16px;
+color:#F5C918;
+font-size: 18px;
  }
 .services-text{
 	width: 1100px;
@@ -213,7 +241,7 @@ font-size: 16px;
 	height:320px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow:5px 5px 18px rgba(0,0,0,0.3);
+	box-shadow:5px 5px 18px #0000004d;
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -230,7 +258,7 @@ font-size: 16px;
 	background-image:url("Design Assets/services-2.png");
 }
 .box-3{
-	background-image:url("Design Assets/servies-3.png");
+	background-image:url("Design Assets/services-3.png");
 }
 .box-1 span,
 .box-2 span,
@@ -257,7 +285,7 @@ font-size: 16px;
 .box-2 p:nth-child(3),
 .box-3 p:nth-child(3){
 	font-family: Fira Code;
-	color:#00BEB9;
+	color:#00beb9;
 	text-align:center;
 	width: 230px;
 	margin:0px 0px 20px 0px;
@@ -277,13 +305,13 @@ font-size: 16px;
  /*Project Section*/
   
  .Project-container{
-  width:90%;
+  width:80%;
   height:400px;
   background-image: url("Design Assets/Projects BG.jpg");
-  border-radius:20px;
-  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+  border-radius:10px;
+  box-shadow:2px 2px 12px #00000033;
   display: flex;
-  margin: 10%  auto 20px auto;
+  margin: 10%  auto 10px auto;
   position: relative;
   justify-content: left;
   align-items: stretch;
@@ -291,33 +319,475 @@ font-size: 16px;
 }
 
 .Project {
-  width:800px;
+  width:900px;
   
 } 
 .Project p:nth-child(1){
-  color:#ffffff;
+  color:#00BEB9;
   font-family: 'Fira Code';
   font-weight:bold;
   font-size:36px;
-  line-height:0px;
+  line-height:10px;
   padding-left: 2cm;
+  padding-top: 2%;              
 }
 .Project p:nth-child(2){
-  color:#00BEB9;
+  color:#9C27B0;
   font-size:20px;
   font-family: 'fira code';
   font-weight:bold;
-  line-height:5px;
+  line-height:10px;
   padding-left: 2cm;
 }
  ul.projects {
-  color:#ffffff;
+  color:#F5C918;
   font-family: 'fira code';
-  font-size:16px;
+  font-size:18px;
   padding-left: 2cm;
 }
 
+#banner {
+padding-top: 10%;
+
+}
+
+.language-div{
+  float:center;
+  margin-right:10px;
+  max-width: 20%;
+  max-height: 20%;
+  display: flex; 
+  justify-content:space-around;
+}
+
+
 /*timeline*/
+.timeline-event body {
+  font-family: 'Fira Code' monospace;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.header h2{
+  padding-top: 8%;
+  text-align: center;
+  color:#00BEB9;
+  font-family: 'Fira Code'monospace;
+  font-weight:bold;
+  font-size:36px;
+}
+
+.header p{
+  text-align: center;
+  font-family: 'Fira Code' monospace;
+	font-weight: bold;
+	color:#9C27B0;
+	font-size: 25px;
+	line-height: 5px;
+  padding-bottom: 4%;
+}
+
+/* Layout */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+  
+}
+.timeline:before {
+  background-color: #00BEB9;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #FF0090;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #FF0090;
+  -webkit-box-shadow: inset 40em 0 0 0 #FF0090;
+  box-shadow: inset 40em 0 0 0 #FF0090;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+  color:#9C27B0;
+  font-family: 'fira code';
+  font-size:26px;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+  color:#F5C918;
+  font-family: 'fira code';
+  font-size:20px;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+  color:#ffffff;
+  font-family: 'fira code';
+  font-size:18px;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color:#00BEB9;
+  outline: 10px solid #000000;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #b35aef;
+  -webkit-box-shadow: inset 0 0 0 0em #b35aef;
+  box-shadow: inset 0 0 0 0em #b35aef;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+/*Contact Section*/
+
+.contact-me{
+	width: 100%;
+	height:380px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image: url("Design Assets/Background IMG (11).png");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 20px 0px;
+}
+.contact-me p{
+	color:#FFFFFF;
+	font-size: 30px;
+	font-family: Fira Code; 
+	font-weight:bold;
+	border-bottom:2px solid #ffffff;
+}
+.contact-me button{
+	width:200px;
+	height:40px;
+	background-color: #FF0090;
+	border:none;
+	outline:none;
+	font-size:14px;
+	font-weight:bold;
+  font-family: Fira Code;
+}
 
 
+/*Footer*/
 
+footer p{
+	font-family: Fira Code;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	font-weight:bold;
+	color:#00BEB9;
+	line-height:10px;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#ffffff;
+	width:600px;
+	text-align: center;
+}
+footer{
+	height:300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#FF0090;
+	margin:20px 10px;
+	border-radius:50%;
+}
+.social-icons{
+	display: flex;
+	
+}
+.social-icons i,.social i{
+	color:#f8f8f8;
+}
+.social-icons a:hover{
+	background-color:#9C27B0;
+	box-shadow:2px 2px 12px #00000033;
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+ 
+.copyright{
+	color:#F5C918;
+	font-size: 12px;
+	position: absolute;	
+  left:50%;
+	bottom:10px;
+	transform: translateX(-50%);
+  font-weight: bold;
+}
+.social{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(-50%);
+}
+.social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FF0090;
+	border:1px solid #FF0090;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.social a:hover{
+	background-color:#9C27B0;
+  border:1px solid #9C27B0;
+	transition:all ease 0.5s;
+}
+.social i{
+	font-size:20px;
+	color:#ffffff;
+}
+
+/* Media Queries
+ @media(max-width:1000px){ 
+	 *{
+		box-sizing: border-box;
+	}
+
+  section{
+		background-image:none;
+		background-color:#f7f7f7;
+  }
+
+	.model{
+		height: 460px;
+		left: 90%;
+		transform: translateX(-90%);
+	}
+	.text-container{
+		top:46%;
+	}
+	.text-container button{
+		margin: 5px;
+	}
+	.about-container{
+		width:90%;
+		border-radius: 10px;
+	}
+	.about-container img{
+		height: 200px;
+	}
+	.about-text{
+		width: 400px;
+	}
+	.about-text p:nth-child(1){
+		font-size: 20px;
+	}
+	.about-text p:nth-child(2){
+		font-size: 10px;
+	}
+	
+	.about-text p:nth-child(3),
+	.about-text p:nth-child(4){
+		font-size: 14px;
+	}
+	.services{
+		padding: 2% 5% 0px 5%;
+	}
+	.box-container{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.services{
+		height: auto;
+	}
+	.box-1,.box-2,.box-3{
+		flex-grow: 1;
+		margin: 10px;
+	}
+	.contact-me{
+		height: 200px;
+	}
+	.contact-me p{
+		font-size: 26px;
+	}
+	.contact-me button{
+		font-size: 14px;
+		height:35px;
+		width: 160px;
+	}
+}
+@media(max-width:750px){
+	section{
+		background-image:none;
+		background-color:#f7f7f7;
+	}
+	.model{
+		display: none;
+	}
+	.toggle{
+		display: block;
+	}
+	.text-container p:nth-child(2){
+		line-height: 40px;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	.text-container{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 80%;
+	}
+	nav ul{
+		margin: 0px;
+		padding: 0px;
+		background-color: #ebeef4;
+		flex-direction: column;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width:100%;
+		height: 100vh;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1;
+		display: none;
+		
+	}
+	nav ul li{
+		padding: 10px;
+	}
+	nav ul li a{
+		font-family: calibri;
+		font-size: 1.4em;
+		text-transform: uppercase;
+		color:#5c5c5c;
+	}
+	nav ul li a:hover{
+		color:#121212;
+	}
+	.toggle:before{
+		content: '\f0c9';
+		font-family: fontAwesome;
+		line-height: 30px;
+		z-index: 1;
+	}
+	.toggle.active:before{
+		content: '\f00d';
+		position: fixed;
+		right: 25px;
+		line-height: 0px;
+		
+	}
+	nav.active ul{
+		display: flex !important;
+	}
+	.about-container{
+		top: 0px;
+		flex-direction: column;
+		width:90%;
+		height: auto;
+		padding: 30px 0px;
+		align-items: center;
+	}
+	.about-text{
+		width:90%;
+		text-align: center;
+	}
+	.services-text{
+		width: 100%;
+	}
+	.contact-me{
+		height: 180px;
+	}
+	.contact-me p{
+		font-size: 18px;
+	}
+	.contact-me button{
+		width: 150px;
+		height: 33px;
+	}
+	footer p:nth-child(2){
+		width: 90%;
+	}
+	
+} */

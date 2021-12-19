@@ -56,3 +56,6 @@ You must push all the code to this repository. It's advisable to work on your co
 1. [Cassie Evans](https://www.cassie.codes)
 1. [Fajar Siddiq](https://fajarsiddiq.com)
 1. [Lee Robinson](https://leerob.io)
+
+Site Badge:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5205c2cf-ccd9-4ab0-8ff6-15c37f1e9332/deploy-status)](https://app.netlify.com/sites/solagnelakecodes/deploys)
